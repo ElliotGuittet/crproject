@@ -20,7 +20,7 @@ import com.sip.crproject.repositories.EtudiantRepository;
 @DataJpaTest 
 @AutoConfigureTestDatabase(replace = Replace.NONE) 
 @TestMethodOrder(OrderAnnotation.class)
-public class TestDemoMVCController {
+public class TestDemoDataController {
   
     @Autowired 
     private EtudiantRepository repo; 
